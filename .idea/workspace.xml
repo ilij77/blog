@@ -7,10 +7,15 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1kTzoKU5kfwxzTa8e061iSooWJw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -23,6 +28,12 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RunManager">
+    <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner scope="XML" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="ba2b89d4-0d11-4d30-946f-776633737c86" name="Default Changelist" comment="" />
@@ -31,10 +42,33 @@
       <option name="presentableId" value="Default" />
       <updated>1605739546164</updated>
       <workItem from="1605739549927" duration="168000" />
+      <workItem from="1605739861604" duration="320000" />
     </task>
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
+    <state x="838" y="417" key="Github.ShareDialog" timestamp="1605740360217">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="838" y="417" key="Github.ShareDialog/0.0.1920.1040/-1280.52.1280.984@0.0.1920.1040" timestamp="1605740360217" />
+    <state x="732" y="224" key="Github.UntrackedFilesDialog" timestamp="1605740150457">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="732" y="224" key="Github.UntrackedFilesDialog/0.0.1920.1040/-1280.52.1280.984@0.0.1920.1040" timestamp="1605740150457" />
     <state x="461" y="164" key="SettingsEditor" timestamp="1605739732951">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
