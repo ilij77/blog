@@ -10,15 +10,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba2b89d4-0d11-4d30-946f-776633737c86" name="Default Changelist" comment="Урок 3">
-      <change afterPath="$PROJECT_DIR$/app/Models/Category.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Post.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Tag.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_11_19_223342_create_categories_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_11_19_223548_create_tags_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_11_19_223709_create_posts_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_11_19_223935_create_post_tag_table.php" afterDir="false" />
+    <list default="true" id="ba2b89d4-0d11-4d30-946f-776633737c86" name="Default Changelist" comment="Урок 4">
+      <change afterPath="$PROJECT_DIR$/config/sluggable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/blog.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Tag.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Tag.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,6 +146,8 @@
       <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
       <path value="$PROJECT_DIR$/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/vendor/cviebrock/eloquent-sluggable" />
+      <path value="$PROJECT_DIR$/vendor/cocur/slugify" />
     </include_path>
   </component>
   <component name="ProjectId" id="1kTzoKU5kfwxzTa8e061iSooWJw" />
@@ -188,7 +190,8 @@
       <workItem from="1605739549927" duration="168000" />
       <workItem from="1605739861604" duration="4773000" />
       <workItem from="1605745041096" duration="3790000" />
-      <workItem from="1605821335469" duration="3995000" />
+      <workItem from="1605821335469" duration="4796000" />
+      <workItem from="1605828328516" duration="322000" />
     </task>
     <task id="LOCAL-00001" summary="Install laravel">
       <created>1605740479537</created>
@@ -218,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605824738308</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Урок 4">
+      <created>1605827137471</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1605827137471</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,7 +252,8 @@
     <MESSAGE value="Урок 1" />
     <MESSAGE value="Урок 2" />
     <MESSAGE value="Урок 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Урок 3" />
+    <MESSAGE value="Урок 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Урок 4" />
   </component>
   <component name="WindowStateProjectService">
     <state x="714" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605742362741">
