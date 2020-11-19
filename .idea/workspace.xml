@@ -10,19 +10,182 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba2b89d4-0d11-4d30-946f-776633737c86" name="Default Changelist" comment="Install laravel">
-      <change afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/index.blade" afterDir="false" />
+    <list default="true" id="ba2b89d4-0d11-4d30-946f-776633737c86" name="Default Changelist" comment="Урок 1">
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/admin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/adminlte.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/img/AdminLTELogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/img/avatar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/img/avatar04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/img/avatar2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/img/avatar3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/img/avatar5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/img/boxed-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/img/boxed-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/img/credit/american-express.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/img/credit/cirrus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/img/credit/mastercard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/img/credit/mestro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/img/credit/paypal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/img/credit/paypal2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/img/credit/visa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/img/default-150x150.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/img/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/img/photo1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/img/photo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/img/photo3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/img/photo4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/img/prod-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/img/prod-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/img/prod-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/img/prod-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/img/prod-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/img/user1-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/img/user2-160x160.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/img/user3-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/img/user4-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/img/user5-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/img/user6-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/img/user7-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/img/user8-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/js/admin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/webfonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/webfonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/webfonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/webfonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/webfonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/webfonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/webfonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/webfonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/webfonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/admin/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/js/adminlte.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/css/adminlte.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/css/adminlte.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/css/adminlte.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/css/adminlte.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/css/alt/adminlte.components.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/css/alt/adminlte.components.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/css/alt/adminlte.components.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/css/alt/adminlte.components.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/css/alt/adminlte.core.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/css/alt/adminlte.core.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/css/alt/adminlte.core.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/css/alt/adminlte.core.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/css/alt/adminlte.extra-components.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/css/alt/adminlte.extra-components.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/css/alt/adminlte.extra-components.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/css/alt/adminlte.extra-components.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/css/alt/adminlte.pages.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/css/alt/adminlte.pages.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/css/alt/adminlte.pages.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/css/alt/adminlte.pages.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/css/alt/adminlte.plugins.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/css/alt/adminlte.plugins.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/css/alt/adminlte.plugins.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/css/alt/adminlte.plugins.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/img/AdminLTELogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/img/avatar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/img/avatar04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/img/avatar2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/img/avatar3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/img/avatar5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/img/boxed-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/img/boxed-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/img/credit/american-express.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/img/credit/cirrus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/img/credit/mastercard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/img/credit/mestro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/img/credit/paypal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/img/credit/paypal2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/img/credit/visa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/img/default-150x150.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/img/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/img/photo1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/img/photo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/img/photo3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/img/photo4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/img/prod-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/img/prod-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/img/prod-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/img/prod-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/img/prod-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/img/user1-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/img/user2-160x160.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/img/user3-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/img/user4-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/img/user5-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/img/user6-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/img/user7-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/img/user8-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/js/adminlte.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/js/adminlte.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/js/adminlte.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/js/adminlte.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/js/demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/js/pages/dashboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/js/pages/dashboard2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/js/pages/dashboard3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/plugins/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/plugins/bootstrap/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/plugins/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/plugins/bootstrap/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/plugins/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/plugins/bootstrap/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/plugins/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/plugins/bootstrap/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/plugins/fontawesome-free/css/all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/plugins/fontawesome-free/css/all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/plugins/fontawesome-free/css/brands.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/plugins/fontawesome-free/css/brands.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/plugins/fontawesome-free/css/fontawesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/plugins/fontawesome-free/css/fontawesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/plugins/fontawesome-free/css/regular.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/plugins/fontawesome-free/css/regular.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/plugins/fontawesome-free/css/solid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/plugins/fontawesome-free/css/solid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/plugins/fontawesome-free/css/svg-with-js.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/plugins/fontawesome-free/css/svg-with-js.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/plugins/fontawesome-free/css/v4-shims.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/plugins/fontawesome-free/css/v4-shims.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/plugins/fontawesome-free/webfonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/plugins/fontawesome-free/webfonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/plugins/fontawesome-free/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/plugins/fontawesome-free/webfonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/plugins/fontawesome-free/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/plugins/fontawesome-free/webfonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/plugins/fontawesome-free/webfonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/plugins/fontawesome-free/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/plugins/fontawesome-free/webfonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/plugins/fontawesome-free/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/plugins/fontawesome-free/webfonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/plugins/fontawesome-free/webfonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/plugins/fontawesome-free/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/plugins/fontawesome-free/webfonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/plugins/fontawesome-free/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/plugins/jquery/core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/plugins/jquery/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/plugins/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/plugins/jquery/jquery.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/plugins/jquery/jquery.slim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/plugins/jquery/jquery.slim.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/admin/plugins/jquery/jquery.slim.min.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -154,12 +317,19 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/assets/admin/plugins" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Илья\Desktop\OpenServer\domains\blog\resources\assets\admin\plugins" />
+      <recent name="C:\Users\Илья\Desktop\OpenServer\domains\blog\resources\assets\admin" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -176,7 +346,8 @@
       <option name="presentableId" value="Default" />
       <updated>1605739546164</updated>
       <workItem from="1605739549927" duration="168000" />
-      <workItem from="1605739861604" duration="2639000" />
+      <workItem from="1605739861604" duration="4773000" />
+      <workItem from="1605745041096" duration="2470000" />
     </task>
     <task id="LOCAL-00001" summary="Install laravel">
       <created>1605740479537</created>
@@ -185,7 +356,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605740479537</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Урок 1">
+      <created>1605742659142</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605742659142</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,10 +379,13 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Install laravel" />
-    <option name="LAST_COMMIT_MESSAGE" value="Install laravel" />
+    <MESSAGE value="Урок 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Урок 1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="714" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605742362741">
@@ -223,9 +404,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/-1280.52.1280.984@0.0.1920.1040" timestamp="1605739732951" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1605740490590">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1605742678123">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1280.52.1280.984@0.0.1920.1040" timestamp="1605740490590" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1280.52.1280.984@0.0.1920.1040" timestamp="1605742678123" />
   </component>
 </project>
