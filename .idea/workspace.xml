@@ -10,15 +10,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba2b89d4-0d11-4d30-946f-776633737c86" name="Default Changelist" comment="Урок 4">
-      <change afterPath="$PROJECT_DIR$/config/sluggable.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/blog.iml" afterDir="false" />
+    <list default="true" id="ba2b89d4-0d11-4d30-946f-776633737c86" name="Default Changelist" comment="Урок 5">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/CategoryController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/MainController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/categories/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Category.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Post.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Tag.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Tag.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_11_19_223342_create_categories_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_11_19_223342_create_categories_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_11_19_223548_create_tags_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_11_19_223548_create_tags_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_11_19_223709_create_posts_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_11_19_223709_create_posts_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/layouts/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/layouts/layout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,7 +192,7 @@
       <workItem from="1605739861604" duration="4773000" />
       <workItem from="1605745041096" duration="3790000" />
       <workItem from="1605821335469" duration="4796000" />
-      <workItem from="1605828328516" duration="322000" />
+      <workItem from="1605828328516" duration="2935000" />
     </task>
     <task id="LOCAL-00001" summary="Install laravel">
       <created>1605740479537</created>
@@ -228,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605827137471</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Урок 5">
+      <created>1605828965006</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1605828965006</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,7 +261,8 @@
     <MESSAGE value="Урок 2" />
     <MESSAGE value="Урок 3" />
     <MESSAGE value="Урок 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Урок 4" />
+    <MESSAGE value="Урок 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Урок 5" />
   </component>
   <component name="WindowStateProjectService">
     <state x="714" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605742362741">
@@ -268,17 +277,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="732" y="224" key="Github.UntrackedFilesDialog/0.0.1920.1040/-1280.52.1280.984@0.0.1920.1040" timestamp="1605740150457" />
-    <state x="795" y="443" key="NewPhpFileDialog" timestamp="1605822340586">
+    <state x="795" y="443" key="NewPhpFileDialog" timestamp="1605830084661">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="795" y="443" key="NewPhpFileDialog/0.0.1920.1040/-1280.52.1280.984@0.0.1920.1040" timestamp="1605822340586" />
+    <state x="795" y="443" key="NewPhpFileDialog/0.0.1920.1040/-1280.52.1280.984@0.0.1920.1040" timestamp="1605830084661" />
     <state x="461" y="164" key="SettingsEditor" timestamp="1605739732951">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/-1280.52.1280.984@0.0.1920.1040" timestamp="1605739732951" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1605751890910">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1605828970595">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1280.52.1280.984@0.0.1920.1040" timestamp="1605751890910" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1280.52.1280.984@0.0.1920.1040" timestamp="1605828970595" />
   </component>
 </project>
