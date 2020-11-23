@@ -5,13 +5,17 @@
  * This file is for demo purposes only.
  */
 (function ($) {
-  'use strict'
+    'use strict'
 
-  var $sidebar   = $('.control-sidebar')
-  var $container = $('<div />', {
-    class: 'p-3 control-sidebar-content'
-  })
+    $('.select2').select2()
+    $('.select2bs4').select2({
+        theme: 'bootstrap4'
+    })
 
+    var $sidebar   = $('.control-sidebar')
+    var $container = $('<div />', {
+        class: 'p-3 control-sidebar-content'
+    })
   $sidebar.append($container)
 
   var navbar_dark_skins = [
