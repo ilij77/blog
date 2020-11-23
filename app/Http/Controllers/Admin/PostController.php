@@ -7,6 +7,7 @@ use App\Models\Category;
 use App\Models\Post;
 use App\Models\Tag;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Storage;
 
 class PostController extends Controller
 {
@@ -51,10 +52,9 @@ class PostController extends Controller
        //dd($request->all());
 
        $date=$request->all();
-       if ($request->hasFile('thumbnail')){
-           $folder=date('Y-m-d');
-           $date['thumbnail']=$request->file('thumbnail')->store("images/{$folder}");
-       }
+
+        $date['thumbnail']=Post::uploadImage($request);
+
        $post=Post::create($date);
        $post->tags()->sync($request->tags);
 
@@ -74,7 +74,10 @@ class PostController extends Controller
     public function edit($id)
     {
 
-      return view('admin.posts.edit');
+        $post=Post::find($id);
+        $categories=Category::pluck('title','id')->all();
+        $tags=Tag::pluck('title','id')->all();
+      return view('admin.posts.edit',compact('categories','tags','post'));
 
     }
 
@@ -89,9 +92,21 @@ class PostController extends Controller
     {
         $request->validate([
             'title'=>'required',
+            'description'=>'required',
+            'content'=>'required',
+            'category_id'=>'required|integer',
+            'thumbnail'=>'nullable|image',
         ]);
+        $post=Post::find($id);
+        $date=$request->all();
 
-        return  redirect()->route('posts.index')->with('success','Изменения изменены');
+        $date['thumbnail']=Post::uploadImage($request,$post->thubnail);
+
+        $post->update($date);
+        $post->tags()->sync($request->tags);
+
+
+        return  redirect()->route('posts.index')->with('success','Изменения сохранены');
     }
 
     /**
@@ -102,6 +117,11 @@ class PostController extends Controller
      */
     public function destroy($id)
     {
+        $post=Post::find($id);
+        $post->tags()->sync([]);
+        Storage::delete($post->thumbnail);
+        $post->delete();
+
 
 
         return  redirect()->route('posts.index')->with('success','Статья удалена');

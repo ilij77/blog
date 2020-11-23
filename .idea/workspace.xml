@@ -24,20 +24,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba2b89d4-0d11-4d30-946f-776633737c86" name="Default Changelist" comment="Урок9">
-      <change afterPath="$PROJECT_DIR$/public/uploads/images/2020-11-23/25sRcCUdAAGSb1VLt5pcJvoSnKOL5y6qx730IuFv.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/images/2020-11-23/4NQTslAmcce4hXjm80Erp8mEIL95uPuRxltnOqIN.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/images/2020-11-23/Dg2dV7b4grVCbrzSMe0jMk3wy7sNgpMmXv20mpcG.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/images/2020-11-23/OXJ5lasDUrKVFPAdvcx8nr9VDNlSkxSMyvy1OrP4.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/images/2020-11-23/QMOMIry74naKDZaD6wW4ozhgPj6vbK8aa5oObMdG.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/images/2020-11-23/VEE9H2Aqb3LkVZyCqKAR8KZtdLzcmP2srtjAJ3AF.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/images/2020-11-23/dRyEcf5Z93OC6333LmJI7uiBtPRIswzNURPcUdUO.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/images/2020-11-23/nSN2gSwsiVb6nJniCbdhm1IFPr9eaHU9Ai1tPpgX.jpeg" afterDir="false" />
+    <list default="true" id="ba2b89d4-0d11-4d30-946f-776633737c86" name="Default Changelist" comment="Урок10">
+      <change afterPath="$PROJECT_DIR$/public/no-image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/images/2020-11-23/OyurDnnvuSw70YwWRN7lYaAF2hHpuu1SNCwWMhhw.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/images/2020-11-23/QazG5wNgTLgy7CnUYNtBGzQjSlqyh2esNNo4mCaI.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/images/2020-11-23/XBgr4gmHwkCiWUUyS1XlLAXVkkUpxa5CMfBAUqUR.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/images/2020-11-23/jIEnwxlQr5muUeQvOB96vXdjZog9EZmaSaiFfGrm.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/PostController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Models/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Post.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/filesystems.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/filesystems.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/posts/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/posts/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/posts/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/posts/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/posts/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/posts/index.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,18 +178,18 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/assets/admin/plugins" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Илья\Desktop\OpenServer\domains\blog\public" />
       <recent name="C:\Users\Илья\Desktop\OpenServer\domains\blog\resources\assets\admin\plugins" />
       <recent name="C:\Users\Илья\Desktop\OpenServer\domains\blog\resources\views\admin" />
       <recent name="C:\Users\Илья\Desktop\OpenServer\domains\blog\app\Http\Controllers\Admin" />
       <recent name="C:\Users\Илья\Desktop\OpenServer\domains\blog\resources\views\admin\categories" />
-      <recent name="C:\Users\Илья\Desktop\OpenServer\domains\blog\resources\assets\admin" />
     </key>
   </component>
   <component name="RunManager">
@@ -215,7 +212,7 @@
       <workItem from="1605821335469" duration="4796000" />
       <workItem from="1605828328516" duration="3043000" />
       <workItem from="1606081611784" duration="11137000" />
-      <workItem from="1606122666809" duration="10827000" />
+      <workItem from="1606122666809" duration="16784000" />
     </task>
     <task id="LOCAL-00001" summary="Install laravel">
       <created>1605740479537</created>
@@ -287,7 +284,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606128765929</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Урок10">
+      <created>1606134115708</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1606134115708</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -317,13 +321,18 @@
     <MESSAGE value="Урок 7" />
     <MESSAGE value="Урок 8" />
     <MESSAGE value="Урок9" />
-    <option name="LAST_COMMIT_MESSAGE" value="Урок9" />
+    <MESSAGE value="Урок10" />
+    <option name="LAST_COMMIT_MESSAGE" value="Урок10" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="714" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605742362741">
+    <state x="714" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606138611848">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="714" y="321" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1280.52.1280.984@0.0.1920.1040" timestamp="1605742362741" />
+    <state x="714" y="321" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1280.52.1280.984@0.0.1920.1040" timestamp="1606138611848" />
+    <state x="690" y="274" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1606137766766">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="274" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040/-1280.52.1280.984@0.0.1920.1040" timestamp="1606137766766" />
     <state x="838" y="417" key="Github.ShareDialog" timestamp="1605740360217">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
