@@ -24,17 +24,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba2b89d4-0d11-4d30-946f-776633737c86" name="Default Changelist" comment="Урок10">
-      <change afterPath="$PROJECT_DIR$/public/no-image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/images/2020-11-23/OyurDnnvuSw70YwWRN7lYaAF2hHpuu1SNCwWMhhw.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/images/2020-11-23/QazG5wNgTLgy7CnUYNtBGzQjSlqyh2esNNo4mCaI.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/images/2020-11-23/XBgr4gmHwkCiWUUyS1XlLAXVkkUpxa5CMfBAUqUR.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/images/2020-11-23/jIEnwxlQr5muUeQvOB96vXdjZog9EZmaSaiFfGrm.jpeg" afterDir="false" />
+    <list default="true" id="ba2b89d4-0d11-4d30-946f-776633737c86" name="Default Changelist" comment="Урок11">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_11_23_150711_alter_table_users_add_isadmin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/user/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/blog.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/PostController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Post.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/posts/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/posts/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/posts/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/posts/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,6 +165,9 @@
       <path value="$PROJECT_DIR$/vendor/dragonmantank/cron-expression" />
       <path value="$PROJECT_DIR$/vendor/cviebrock/eloquent-sluggable" />
       <path value="$PROJECT_DIR$/vendor/cocur/slugify" />
+      <path value="$PROJECT_DIR$/vendor/maximebf/debugbar" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar" />
     </include_path>
   </component>
   <component name="ProjectId" id="1kTzoKU5kfwxzTa8e061iSooWJw" />
@@ -212,7 +216,8 @@
       <workItem from="1605821335469" duration="4796000" />
       <workItem from="1605828328516" duration="3043000" />
       <workItem from="1606081611784" duration="11137000" />
-      <workItem from="1606122666809" duration="16784000" />
+      <workItem from="1606122666809" duration="17665000" />
+      <workItem from="1606142119746" duration="3290000" />
     </task>
     <task id="LOCAL-00001" summary="Install laravel">
       <created>1605740479537</created>
@@ -291,7 +296,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606134115708</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Урок11">
+      <created>1606140187637</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1606140187637</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -322,7 +334,8 @@
     <MESSAGE value="Урок 8" />
     <MESSAGE value="Урок9" />
     <MESSAGE value="Урок10" />
-    <option name="LAST_COMMIT_MESSAGE" value="Урок10" />
+    <MESSAGE value="Урок11" />
+    <option name="LAST_COMMIT_MESSAGE" value="Урок11" />
   </component>
   <component name="WindowStateProjectService">
     <state x="714" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606138611848">
@@ -341,17 +354,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="732" y="224" key="Github.UntrackedFilesDialog/0.0.1920.1040/-1280.52.1280.984@0.0.1920.1040" timestamp="1605740150457" />
-    <state x="795" y="443" key="NewPhpFileDialog" timestamp="1606082995572">
+    <state x="795" y="443" key="NewPhpFileDialog" timestamp="1606142781121">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="795" y="443" key="NewPhpFileDialog/0.0.1920.1040/-1280.52.1280.984@0.0.1920.1040" timestamp="1606082995572" />
+    <state x="795" y="443" key="NewPhpFileDialog/0.0.1920.1040/-1280.52.1280.984@0.0.1920.1040" timestamp="1606142781121" />
     <state x="461" y="164" key="SettingsEditor" timestamp="1605739732951">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/-1280.52.1280.984@0.0.1920.1040" timestamp="1605739732951" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1606128782383">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1606140186575">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1280.52.1280.984@0.0.1920.1040" timestamp="1606128782383" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1280.52.1280.984@0.0.1920.1040" timestamp="1606140186575" />
   </component>
 </project>
