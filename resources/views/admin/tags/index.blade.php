@@ -31,7 +31,7 @@
                             <!-- /.card-header -->
                             <div class="card-body">
                                 <a href="{{ route('tags.create') }}" class="btn btn-primary mb-3">Добавить
-                                    категорию</a>
+                                    тег</a>
                                 @if (count($tags))
                                     <div class="table-responsive">
                                         <table class="table table-bordered table-hover text-nowrap">

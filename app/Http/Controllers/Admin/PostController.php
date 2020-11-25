@@ -99,8 +99,12 @@ class PostController extends Controller
         ]);
         $post=Post::find($id);
         $date=$request->all();
+        if ($file=Post::uploadImage($request,$post->thubnail)){
+            $date['thumbnail']=$file;
+        }
 
-        $date['thumbnail']=Post::uploadImage($request,$post->thubnail);
+
+
 
         $post->update($date);
         $post->tags()->sync($request->tags);

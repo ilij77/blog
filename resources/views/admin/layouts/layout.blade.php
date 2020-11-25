@@ -267,6 +267,13 @@
                 </ul>
             </div>
         @endif
+
+        @if (session()->has('error'))
+            <div class="alert alert-danger">
+                {{session('error')}}
+            </div>
+        @endif
+
     @yield('content')
     </div>
     <!-- /.content-wrapper -->
@@ -357,6 +364,9 @@
         .catch( function( error ) {
             console.error( error );
         } );
+    $(document).ready(function () {
+        bsCustomFileInput.init();
+    });
 </script>
 
 </body>
