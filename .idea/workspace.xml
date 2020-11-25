@@ -27,12 +27,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba2b89d4-0d11-4d30-946f-776633737c86" name="Default Changelist" comment="Урок19">
+    <list default="true" id="ba2b89d4-0d11-4d30-946f-776633737c86" name="Default Changelist" comment="Урок19 Исправленный">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/TagController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/tags/show.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/category_layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/category_layout.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/layout.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/sidebar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/posts/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/show.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,21 +178,21 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/assets/admin/plugins" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Илья\Desktop\OpenServer\domains\blog\resources\assets\admin\plugins" />
-      <recent name="C:\Users\Илья\Desktop\OpenServer\domains\blog\resources\assets\front\images" />
-      <recent name="C:\Users\Илья\Desktop\OpenServer\domains\blog\public\assets\front\images" />
-      <recent name="C:\Users\Илья\Desktop\OpenServer\domains\blog\resources\assets\front" />
-      <recent name="C:\Users\Илья\Desktop\OpenServer\domains\blog\public\assets\admin" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Илья\Desktop\OpenServer\domains\blog\public\assets\admin" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Илья\Desktop\OpenServer\domains\blog\resources\views" />
+      <recent name="C:\Users\Илья\Desktop\OpenServer\domains\blog\app\Http\Controllers" />
+      <recent name="C:\Users\Илья\Desktop\OpenServer\domains\blog\app\Http\Controllers\Admin" />
+      <recent name="C:\Users\Илья\Desktop\OpenServer\domains\blog\resources\assets\admin\plugins" />
+      <recent name="C:\Users\Илья\Desktop\OpenServer\domains\blog\resources\assets\front\images" />
     </key>
   </component>
   <component name="RunManager">
@@ -220,7 +219,7 @@
       <workItem from="1606142119746" duration="3594000" />
       <workItem from="1606166688894" duration="9403000" />
       <workItem from="1606252851353" duration="11029000" />
-      <workItem from="1606292533243" duration="10222000" />
+      <workItem from="1606292533243" duration="11649000" />
     </task>
     <task id="LOCAL-00001" summary="Install laravel">
       <created>1605740479537</created>
@@ -362,7 +361,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606301177884</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Урок19 Исправленный">
+      <created>1606302994289</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1606302994289</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -402,7 +408,8 @@
     <MESSAGE value="Урок17" />
     <MESSAGE value="Урок18" />
     <MESSAGE value="Урок19" />
-    <option name="LAST_COMMIT_MESSAGE" value="Урок19" />
+    <MESSAGE value="Урок19 Исправленный" />
+    <option name="LAST_COMMIT_MESSAGE" value="Урок19 Исправленный" />
   </component>
   <component name="WindowStateProjectService">
     <state x="714" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606138611848">
