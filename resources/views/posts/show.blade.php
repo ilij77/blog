@@ -1,5 +1,5 @@
-
 @extends('layouts.layout')
+
 @section('title','Markedia - Marketing Blog Template:'.$post->title)
 @section('content')
     <div class="page-wrapper">
@@ -59,7 +59,7 @@
             <div class="col-lg-12">
                 <div class="banner-spot clearfix">
                     <div class="banner-img">
-                        <img src="upload/banner_01.jpg" alt="" class="img-fluid">
+                        <img src="/assets/front/upload/banner_01.jpg" alt="" class="img-fluid">
                     </div><!-- end banner-img -->
                 </div><!-- end banner -->
             </div><!-- end col -->
@@ -71,7 +71,7 @@
             <h4 class="small-title">About author</h4>
             <div class="row">
                 <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
-                    <img src="upload/author.jpg" alt="" class="img-fluid rounded-circle">
+                    <img src="/assets/front/upload/author.jpg" alt="" class="img-fluid rounded-circle">
                 </div><!-- end col -->
 
                 <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12">
@@ -100,7 +100,7 @@
                     <div class="blog-box">
                         <div class="post-media">
                             <a href="marketing-single.html" title="">
-                                <img src="upload/market_blog_02.jpg" alt="" class="img-fluid">
+                                <img src="/assets/front/upload/market_blog_02.jpg" alt="" class="img-fluid">
                                 <div class="hovereffect">
                                     <span class=""></span>
                                 </div><!-- end hover -->
@@ -118,7 +118,7 @@
                     <div class="blog-box">
                         <div class="post-media">
                             <a href="marketing-single.html" title="">
-                                <img src="upload/market_blog_03.jpg" alt="" class="img-fluid">
+                                <img src="/assets/front/upload/market_blog_03.jpg" alt="" class="img-fluid">
                                 <div class="hovereffect">
                                     <span class=""></span>
                                 </div><!-- end hover -->
@@ -143,7 +143,7 @@
                     <div class="comments-list">
                         <div class="media">
                             <a class="media-left" href="#">
-                                <img src="upload/author.jpg" alt="" class="rounded-circle">
+                                <img src="/assets/front/upload/author.jpg" alt="" class="rounded-circle">
                             </a>
                             <div class="media-body">
                                 <h4 class="media-heading user_name">Amanda Martines <small>5 days ago</small></h4>
@@ -153,7 +153,7 @@
                         </div>
                         <div class="media">
                             <a class="media-left" href="#">
-                                <img src="upload/author_01.jpg" alt="" class="rounded-circle">
+                                <img src="/assets/front/upload/author_01.jpg" alt="" class="rounded-circle">
                             </a>
                             <div class="media-body">
 
@@ -166,7 +166,7 @@
                         </div>
                         <div class="media last-child">
                             <a class="media-left" href="#">
-                                <img src="upload/author_02.jpg" alt="" class="rounded-circle">
+                                <img src="/assets/front/upload/author_02.jpg" alt="" class="rounded-circle">
                             </a>
                             <div class="media-body">
 
