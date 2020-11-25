@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -24,29 +27,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba2b89d4-0d11-4d30-946f-776633737c86" name="Default Changelist" comment="Урок15">
-      <change afterPath="$PROJECT_DIR$/resources/assets/admin/plugins/bs-custom-file-input/bs-custom-file-input.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/admin/plugins/bs-custom-file-input/bs-custom-file-input.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/admin/plugins/bs-custom-file-input/bs-custom-file-input.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/admin/plugins/bs-custom-file-input/bs-custom-file-input.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/layout.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/sidebar.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/posts/show.blade.php" afterDir="false" />
+    <list default="true" id="ba2b89d4-0d11-4d30-946f-776633737c86" name="Default Changelist" comment="Урок16">
+      <change afterPath="$PROJECT_DIR$/public/uploads/images/2020-11-25/AHOhX8BlMlf3Yy7qaeM2tVq0ba2KrdLf3aWaDObI.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/images/2020-11-25/YE2ukxTumwTBJFSsrrUL2WCXh6L7e1sFo12Myedu.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/CategoryController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/PostController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/TagController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/TagController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/js/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/js/admin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/images/2020-11-23/OXJ5lasDUrKVFPAdvcx8nr9VDNlSkxSMyvy1OrP4.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/images/2020-11-23/OyurDnnvuSw70YwWRN7lYaAF2hHpuu1SNCwWMhhw.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/images/2020-11-23/QazG5wNgTLgy7CnUYNtBGzQjSlqyh2esNNo4mCaI.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/images/2020-11-23/rIBzLkoM0sHJetYJyxgfmM0tDJbmA4X83a7YLlXw.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Post.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/layouts/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/layouts/layout.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/tags/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/tags/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/layout.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/posts/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -233,7 +223,8 @@
       <workItem from="1606122666809" duration="17665000" />
       <workItem from="1606142119746" duration="3594000" />
       <workItem from="1606166688894" duration="9403000" />
-      <workItem from="1606252851353" duration="10116000" />
+      <workItem from="1606252851353" duration="11029000" />
+      <workItem from="1606292533243" duration="3480000" />
     </task>
     <task id="LOCAL-00001" summary="Install laravel">
       <created>1605740479537</created>
@@ -347,7 +338,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606257964213</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Урок16">
+      <created>1606263775911</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1606263775911</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -383,7 +381,8 @@
     <MESSAGE value="Урок13" />
     <MESSAGE value="Урок14" />
     <MESSAGE value="Урок15" />
-    <option name="LAST_COMMIT_MESSAGE" value="Урок15" />
+    <MESSAGE value="Урок16" />
+    <option name="LAST_COMMIT_MESSAGE" value="Урок16" />
   </component>
   <component name="WindowStateProjectService">
     <state x="714" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606138611848">
@@ -414,13 +413,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/-1280.52.1280.984@0.0.1920.1040" timestamp="1606168149984" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1606176284281">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1606263777715">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1280.52.1280.984@0.0.1920.1040" timestamp="1606176284281" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1606259815957">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1280.52.1280.984@0.0.1920.1040" timestamp="1606263777715" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1606294686879">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1280.52.1280.984@0.0.1920.1040" timestamp="1606259815957" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1280.52.1280.984@0.0.1920.1040" timestamp="1606294686879" />
   </component>
 </project>
