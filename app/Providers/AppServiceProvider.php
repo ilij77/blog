@@ -36,7 +36,7 @@ class AppServiceProvider extends ServiceProvider
                 $cats=Cache::get('cats');
             }else{
                 $cats=Category::withCount('posts')->orderBy('posts_count','desc')->get();
-                Cache::put('cats',$cats,30);
+                Cache::put('cats',$cats,3);
             }
 
             $view->with('popular_posts',Post::orderBy('views','desc')->limit(3)->get());
