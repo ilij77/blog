@@ -27,15 +27,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba2b89d4-0d11-4d30-946f-776633737c86" name="Default Changelist" comment="Урок16">
-      <change afterPath="$PROJECT_DIR$/public/uploads/images/2020-11-25/AHOhX8BlMlf3Yy7qaeM2tVq0ba2KrdLf3aWaDObI.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/images/2020-11-25/YE2ukxTumwTBJFSsrrUL2WCXh6L7e1sFo12Myedu.jpeg" afterDir="false" />
+    <list default="true" id="ba2b89d4-0d11-4d30-946f-776633737c86" name="Default Changelist" comment="Урок17">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Post.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/layouts/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/layouts/layout.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/layout.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/posts/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/posts/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/show.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -224,7 +220,7 @@
       <workItem from="1606142119746" duration="3594000" />
       <workItem from="1606166688894" duration="9403000" />
       <workItem from="1606252851353" duration="11029000" />
-      <workItem from="1606292533243" duration="3480000" />
+      <workItem from="1606292533243" duration="6176000" />
     </task>
     <task id="LOCAL-00001" summary="Install laravel">
       <created>1605740479537</created>
@@ -345,7 +341,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606263775911</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Урок17">
+      <created>1606296091358</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1606296091358</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -382,7 +385,8 @@
     <MESSAGE value="Урок14" />
     <MESSAGE value="Урок15" />
     <MESSAGE value="Урок16" />
-    <option name="LAST_COMMIT_MESSAGE" value="Урок16" />
+    <MESSAGE value="Урок17" />
+    <option name="LAST_COMMIT_MESSAGE" value="Урок17" />
   </component>
   <component name="WindowStateProjectService">
     <state x="714" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606138611848">
@@ -417,9 +421,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1280.52.1280.984@0.0.1920.1040" timestamp="1606263777715" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1606294686879">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1606296677084">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1280.52.1280.984@0.0.1920.1040" timestamp="1606294686879" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1280.52.1280.984@0.0.1920.1040" timestamp="1606296677084" />
   </component>
 </project>
