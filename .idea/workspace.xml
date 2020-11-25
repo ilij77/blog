@@ -27,12 +27,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba2b89d4-0d11-4d30-946f-776633737c86" name="Default Changelist" comment="Урок17">
+    <list default="true" id="ba2b89d4-0d11-4d30-946f-776633737c86" name="Default Changelist" comment="Урок18">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/categories/show.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layouts/category_layout.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/layout.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/posts/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -220,7 +219,7 @@
       <workItem from="1606142119746" duration="3594000" />
       <workItem from="1606166688894" duration="9403000" />
       <workItem from="1606252851353" duration="11029000" />
-      <workItem from="1606292533243" duration="6176000" />
+      <workItem from="1606292533243" duration="8238000" />
     </task>
     <task id="LOCAL-00001" summary="Install laravel">
       <created>1605740479537</created>
@@ -348,7 +347,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606296091358</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Урок18">
+      <created>1606298821492</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1606298821492</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -386,7 +392,8 @@
     <MESSAGE value="Урок15" />
     <MESSAGE value="Урок16" />
     <MESSAGE value="Урок17" />
-    <option name="LAST_COMMIT_MESSAGE" value="Урок17" />
+    <MESSAGE value="Урок18" />
+    <option name="LAST_COMMIT_MESSAGE" value="Урок18" />
   </component>
   <component name="WindowStateProjectService">
     <state x="714" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606138611848">
@@ -409,10 +416,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="732" y="224" key="Github.UntrackedFilesDialog/0.0.1920.1040/-1280.52.1280.984@0.0.1920.1040" timestamp="1605740150457" />
-    <state x="795" y="443" key="NewPhpFileDialog" timestamp="1606259591276">
+    <state x="795" y="443" key="NewPhpFileDialog" timestamp="1606299341982">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="795" y="443" key="NewPhpFileDialog/0.0.1920.1040/-1280.52.1280.984@0.0.1920.1040" timestamp="1606259591276" />
+    <state x="795" y="443" key="NewPhpFileDialog/0.0.1920.1040/-1280.52.1280.984@0.0.1920.1040" timestamp="1606299341982" />
     <state x="461" y="164" key="SettingsEditor" timestamp="1606168149984">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -421,9 +428,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1280.52.1280.984@0.0.1920.1040" timestamp="1606263777715" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1606296677084">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1606299201804">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1280.52.1280.984@0.0.1920.1040" timestamp="1606296677084" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1280.52.1280.984@0.0.1920.1040" timestamp="1606299201804" />
   </component>
 </project>
